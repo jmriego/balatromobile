@@ -4,7 +4,7 @@ name: Upload Python Package to PyPi
 on:
   push:
     branches:
-      - develop # or a pattern like "*" for including all branches
+      - master # or a pattern like "*" for including all branches
     paths:
       - balatromobile/__version__.py
 
